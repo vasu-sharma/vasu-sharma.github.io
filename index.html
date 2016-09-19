@@ -16,9 +16,145 @@
 
 <body>
     
+    <div id="toppane" style="position: fixed; background-color: white; width: 100%;" class="hideous">
+        <p id="head">VASU SHARMA</p>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#tag1">About Myself</a></li>
+            <li><a href="#tag2">Experience</a></li>
+            <li><a href="#tag3">Projects</a></li>
+            <li><a href="#achieve">Achievements</a></li>
+        </ul>
+    </div>
+    
+    <div id="bajamodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Design of Drivetrain assembly</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Faculty-in-charge: Dr. K.S Sangwan, Department of Mechanical Engineering</p>
+                    <ul>
+                        <li>Reduction requirements were calculated keeping in mind the optimum drive ratio and torque requirements</li>
+                        <li>Suitable materials were chosen and initial design were made on solidworks keeping in mind profile requirements and angle of wrap</li>
+                        <li>Finite Element analysis conducted on ANSYS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="fsmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Aero package</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Faculty-in-charge: Prof. Sandeep Dhar, Department of Mechanical Engineering </p>
+                    <ul>
+                        <li>Numerical  simulation of multi-element wing designs was performed using commercial CFD  software.</li>
+                        <li>Aerodynamic balance calculations were performed for obtaining the desired center of pressure.  </li>
+                        <li>Undertray and diffuser were designed and optimized using CFD software.  The effect of drag and  lift forces on the lap times was calculated. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="icamodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project Icarus&copy;</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Aims to model and improve drivetrain efficiency in automobiles using an integrated systems approach</li>
+                        <li>Integrates systems such as the Split Differential © and Fuel Flow regulator,to save fuel and enhance life of drivetrain components</li>
+                        <li>Backed by the <strong>Avery Dennison Foundation</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="biomodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Leg Brace</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Mechanical exoskeleton that provides support during injuries ,by transfering loads from feet to the thigh</li>
+                        <li>Accelerates healing process by reducing load exposure to the effective part</li>
+                        <li>Using springs along with knee cap to mimic muscular action</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="othermodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ongoing Projects</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Introduction of sustainable manufacturing and green materials into the design of a Formula Student car</li>
+                        <li>Design and fabricaiton of a mechanical crawler using Klanns mechanism</li>
+                        <li>Automatic wrench presented at APOGEE 2016</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="windmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Hybrid lyfing for a Wind turbine gearbox</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Faculty-in-charge: Prof. Sandeep Dhar, Department of Mechanical Engineering</p>
+                    <ul>
+                        <li>Development of an alternate hypothesis to predict the gearbox failures in wind turbines</li>
+                        <li>Cumulative damage theory  and viscoelastic characteristic of structural steels taken into account</li>
+                        <li>Aims to accurately predict failure patterns based on condition based monitoring,saving companies millions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="container-fluid">
         
         <div id="maindiv" class="row row-content" style="background-image: url(img/homeback.JPG)">
+          
+            <button class="btn" type="button" data-toggle="collapse" data-target="#nav" aria-expanded="false" aria-controls="navbar" id="navbutt">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <ul id="nav" class="collapse">
+                <li><a href="#">Home</a></li>
+                <li><a href="#tag1">About Myself</a></li>
+                <li><a href="#tag2">Experience</a></li>
+                <li><a href="#tag3">Projects</a></li>
+                <li><a href="#achieve">Achievements</a></li>
+            </ul>
            
             <div align="right" id="tagline">
                 <p>Hey, Nice</p>
@@ -26,12 +162,260 @@
                 <p>see</p>
                 <p>you !</p>
             </div>
+            <p style="padding: 33px;"></p>
+            <p id="tag1"></p>
+        </div>
+        
+        <div class="row row-content" id="about">
+           
+            <p style="padding: 8px" id="abt"></p>
+           
+            <img class="img-circle" src="img/vasuimg.JPG" style="float: left;">
+            
+            <div style="width: 30px; height: 249px; float: left"></div>
+            
+            <p>Hi, I'm Vasu.</p>
+
+            <p>Urbanite. Foodie. Explorer. Aspiring guitarist.</p>
+
+            <p>San Francisco via New York City, London, and Chicago. Alumna of Columbia University and Oxford University.</p>
+
+            <p>Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.</p>
+
+            <p>Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who bring out the best in me.</p>
+
+            <p>Say hi on Twitter @sarahlichang</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus, ex vel maximus viverra, massa justo pellentesque odio, at consequat lacus leo et sem. Nulla imperdiet, odio eu viverra tristique, lorem dui consectetur leo, sed accumsan purus nisi eu nisi. Duis id leo pellentesque, molestie arcu eu, dapibus mauris. Praesent lobortis nunc ut augue ultricies, eget consequat leo pretium. Vivamus euismod urna non massa ullamcorper vehicula. Suspendisse volutpat pulvinar hendrerit. Mauris porta mi varius lacinia hendrerit. Aliquam sed fermentum justo. Sed bibendum tellus in leo dignissim malesuada. Donec tristique imperdiet massa, in aliquam elit lacinia vel. Nunc pharetra ipsum id volutpat fermentum. Integer vitae suscipit urna, eu bibendum leo. Nulla dolor arcu, laoreet in semper rhoncus, tempor nec elit. Vestibulum ut iaculis erat.</p>
+
+            <p>Pellentesque blandit, quam quis eleifend molestie, ligula dui porttitor ligula, a congue tortor velit efficitur nibh. Morbi ac massa eu mauris condimentum tincidunt. In sit amet ultricies tortor. Cras eu ornare dolor. Aenean mauris lorem, egestas nec feugiat sit amet, facilisis ut sapien. Etiam nec tincidunt nisl. Curabitur mattis, tellus in vulputate ullamcorper, mi lectus ullamcorper dolor, et imperdiet augue justo ut nulla. Donec posuere feugiat turpis, at luctus libero semper vel.</p>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat pulvinar ligula tristique gravida. Suspendisse id sapien sit amet metus molestie imperdiet. Proin hendrerit vel dui et cursus. Maecenas interdum sapien egestas lectus laoreet tincidunt. Praesent egestas urna mauris. Sed leo lorem, laoreet in urna et, molestie convallis leo.<span id="tag2"></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae vestibulum sem. Nunc ut lorem vulputate, pretium tellus non, vehicula neque. Vestibulum eget pellentesque urna. Fusce neque lectus, condimentum vitae felis in, eleifend fermentum felis.</p>
+        </div>
+        
+        <div class="row row-content" id="experience">
+           
+            <h3 id="aqhead">Education</h3>
+            
+            <table id="acadtable">
+                <thead>
+                    <tr> <th>Year</th> <th>Degree/Certificate</th> <th>Institute/School, City</th> <th>Grades</th> </tr>
+                </thead>
+                <tbody>
+                    <tr> <td>2014 - present</td> <td>B.E (Hons) Mechanical Engineering, Minor in Finance</td> <td>Birla Institute of Technology &amp; Science, Pilani</td> <td>8.5</td> </tr>
+                    <tr> <td>2014</td> <td>AISSCE(Class XII CBSE Board)</td> <td>Whatever School</td> <td>Shitty</td> </tr>
+                    <tr> <td>2012</td> <td>AISSCE(Class X CBSE Board)</td> <td>Whatever School</td> <td>Shitty</td> </tr>
+                </tbody>
+            </table>
+            <h3 id="olcourses">Relevant Online Courses</h3>
+            <ul id="roc">
+                <li>“A Hands-on Introduction to Engineering Simulations” by Cornell University</li>
+                <li>“Sports and Building Aerodynamics” by Eindhoven University of Technology</li>
+            </ul>
+            <br>
+            <h3 id="aqhead">Work Experience</h3>
+            
+            <br>
+            
+            <div id="exp">
+                <h4 style="font-family: julius sans one"><strong><span class="glyphicon glyphicon-chevron-right"></span> <a style="color: white;" href="https://ikrbaja.wordpress.com"><u>Inspired Karters, BAJA Team, BITS Pilani</u></a></strong></h4>
+                <p style="width: 59%;">Inspired Karters-BAJA are an engineering project which annually design, fabricate and race an ATV in various events, such as Delta Shootout, BAJA Student India, Mega ATV challenge and SAE BAJA India.</p>
+                <br>
+                <img class="img-circle" src="img/baja%20car.jpg" style="float: right; margin-right: 110px; margin-top: -65px;">
+                <h4 style="font-family: kite one;">Member of Vehicle Dynamics Subsystem,Inspired Karters-BAJA</h4>
+                <ul>
+                    <li>Designing and optimisation of wheel assemblies for the BAJA car using Solidworks and ANSYS.</li>
+                    <li>Dead spindle design was chosen to reduce weight and rotors were selected to meet braking     requirements</li>
+                </ul>
+                <br>
+                <h4 style="font-family: kite one;">Member of Powertrain Subsystem,Inspired Karters- BAJA</h4>
+                <ul>
+                    <li>Design and assembly of a drivetrain system for the BAJA car ensuring rulebook compliance</li>
+                </ul>
+                
+                <br>
+                <br>
+                
+                <h4 style="font-family: julius sans one"><strong><span class="glyphicon glyphicon-chevron-right"></span> <a style="color: white;" href="http://inspiredkarters-fs.com/"><u>Inspired Karters, Formula Student Team, BITS Pilani</u></a></strong></h4>
+                <p>Inspired Karters is a team of 45 members who design, manufacture and test Formula SAE cars from scratch for national and international competitions. </p>
+                <br>
+                <h4 style="font-family: kite one;">Senior Member of Powertrain Subsystem,Inspired Karters- FS</h4>
+                <ul>
+                    <li>Designing, optimization and manufacturing of the intake and exhaust subassemblies, drivetrain, and radiator subassembly</li>
+                </ul>
+                <br>
+                <h4 style="font-family: kite one;">BITSAA Coordinator</h4>
+                <ul>
+                    <li>Coordinating with various alumni for technical and non-technical assistance.</li>
+                </ul>
+                
+                <br>
+                <br>
+                
+                <h4 style="font-family: julius sans one"><strong><span class="glyphicon glyphicon-chevron-right"></span> <a style="color: white;" href="http://www.tacogroup.com/"><u>Summer Intern - TATA Autocomp Systems Ltd.</u></a></strong></h4>
+                <ul>
+                    <li>TATA Autocomp-ASAL is one of India’s largest manufacturers in the Stampings and Assemblies business</li>
+                    <li>The project titled,Vendor Development-Fasteners was a techno-commercial project which was part of strategic sourcing</li>
+                    <li>Also involved the study and design of a progressive Punching press,based on the requirement of a manufacturing clip</li>
+                    <li><span id="tag3"></span>The project was completed using Finite Element Analysis of the clip. Theory of FEA was studied extensively.</li>
+                </ul>
+            </div>
+            
+            <p style="padding: 7px;"></p>
+            
+        </div>
+        
+        <div class="row row-content" id="pj" style="background-image: url(img/projimg.jpg)">
+           
+            <div id="fs">
+                <a data-toggle="modal" data-target="#bajamodal">
+                    <img class="img-circle" src="img/fs.jpe" id="fspic">
+                </a>
+                <p style="padding: 1px"></p>
+                <p id="fspara">Design of an aerodynamic package for a FSAE Formula-styled vehicle</p>
+            </div>
+            
+            <div id="ica">
+                <a data-toggle="modal" data-target="#icamodal">
+                    <img class="img-circle" src="img/icarus.jpg" id="icapic">
+                </a>
+                <p style="padding: 18px"></p>
+                <p id="icapara">Project Icarus&copy;</p>
+            </div>
+            
+            <div id="bio">
+                <a data-toggle="modal" data-target="#biomodal">
+                    <img class="img-circle" src="img/bionic.jpg" id="biopic">
+                </a>
+                <p style="padding: 13px"></p>
+                <p id="biopara">Leg Brace</p>
+            </div>
+            
+            <div id="baja">
+                <a data-toggle="modal" data-target="#bajamodal">
+                    <img class="img-circle" src="img/baja.jpg" id="bajapic">
+                </a>
+                <p style="padding: 0px"></p>
+                <p id="bajapara">Design of sprocket based reduction system coupled with a Continuously Variable Transmission for a SAE BAJA car</p>
+            </div>
+            
+            <div id="other">
+                <a data-toggle="modal" data-target="#othermodal">
+                    <img class="img-circle" src="img/others.jpg" id="otherpic">
+                </a>
+                <p style="padding: 13px"></p>
+                <p id="otherpara">Others</p>
+            </div>
+            
+            <div id="wind">
+                <a data-toggle="modal" data-target="#windmodal">
+                    <img class="img-circle" src="img/windmill.jpg" id="windpic">
+                </a>
+                <p style="padding: 1px"></p>
+                <p id="windpara">Hybrid Lyfing for Wind Turbine gearbox using cumulative effects of wear and fatigue</p>
+            </div>
+            
+        </div>
+        
+        <div class="row row-content" id="achieve">
+            <h1 style="text-align: center; font-family: cinzel; color: white;">Achievements</h1>
+            <img src="img/studpic.JPG" style="float: right; margin: 20px 100px 40px 34px;">
+            <ul style="color: white">
+                <li>Awarded the prestigious <strong>Avery Dennison InvEnt scholarship 2015</strong> given to 10 students every year in India and China for EFFI BOOST&copy;,a hybrid modelling concept</li>
+                <li>Awarded <strong>Hindustan Pratibha Samman Scholarship</strong> for academic achievements. </li>
+                <li>Awarded the <strong>Merit Certificate</strong> for scoring perfect 10 CGPA in Xth  Standard by Central Board of Secondary Education.</li>
+                <li>Presented paper on Geared Continuously Variable Transmission in APOGEE 2016.</li>
+                <li>Presented paper on High Altitude Wind Power in APOGEE 2016.</li>
+                <li>Winner of multiple Inter-School Quiz Competitions.</li>
+                <li>Presented a project titled Automatic Wrench at Apogee 2016,aimed at reducing tightening efforts for fasteners using mechanical advantage.</li>
+            </ul>
+            <p style="color: black"><span class="fa fa-facebook"></span></p>
+            <div id="social">
+                <a href="https://www.facebook.com/vasu.sharma.581"><i class="fa fa-lg fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-lg fa-linkedin"></i></a>
+                <a href="mailto: f2014374@pilani.bits-pilani.ac.in"><i class="fa fa-lg fa-envelope"></i></a>
+                <a href="tel: +919929010308"><i class="fa fa-lg fa-phone"></i></a>
+                <p style="color: white; float: right; margin-right: -340px;">Copyright 2016 Vasu Sharma</p>
+            </div>
+            <p style="padding: 10px;"></p>
         </div>
         
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        
+        $(document).scroll(function() {
+          var y = $(this).scrollTop();
+          if (y > 640) {
+            $('.hideous').fadeIn();
+          } else {
+            $('.hideous').fadeOut();
+          }
+        });
+        
+        $(function() {
+            $('#fspic').hover(function() {
+                $('#fs').css('width', '328px');
+                $('#fspara').css('display', 'block');
+            }, function() {
+                $('#fs').css('width', '174px');
+                $('#fspara').css('display', 'none');
+            });
+        });
+        
+        $(function() {
+            $('#icapic').hover(function() {
+                $('#ica').css('width', '328px');
+                $('#icapara').css('display', 'block');
+            }, function() {
+                $('#ica').css('width', '174px');
+                $('#icapara').css('display', 'none');
+            });
+        });
+        
+        $(function() {
+            $('#biopic').hover(function() {
+                $('#bio').css('width', '333px');
+                $('#biopara').css('display', 'block');
+            }, function() {
+                $('#bio').css('width', '174px');
+                $('#biopara').css('display', 'none');
+            });
+        });
+        
+        $(function() {
+            $('#bajapic').hover(function() {
+                $('#baja').css('width', '338px');
+                $('#bajapara').css('display', 'block');
+            }, function() {
+                $('#baja').css('width', '174px');
+                $('#bajapara').css('display', 'none');
+            });
+        });
+        
+        $(function() {
+            $('#otherpic').hover(function() {
+                $('#other').css('width', '303px');
+                $('#otherpara').css('display', 'block');
+            }, function() {
+                $('#other').css('width', '174px');
+                $('#otherpara').css('display', 'none');
+            });
+        });
+        
+        $(function() {
+            $('#windpic').hover(function() {
+                $('#wind').css('width', '337px');
+                $('#windpara').css('display', 'block');
+            }, function() {
+                $('#wind').css('width', '174px');
+                $('#windpara').css('display', 'none');
+            });
+        });
+        
+    </script>
     
 </body>
     
