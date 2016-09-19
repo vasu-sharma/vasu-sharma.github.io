@@ -6,10 +6,6 @@ body {
     display: none;
 }
 
-.navbar {
-    background: transparent;
-}
-
 #navbutt {
     float: left;
     height: 40px;
@@ -52,7 +48,7 @@ body {
 #menu {
     list-style-type: none;
     padding: 0;
-    width: 49%;
+    width: 50%;
     margin: auto;
     z-index: 100;
 }
@@ -360,6 +356,7 @@ body {
 
 #social {
     margin-left: 170px;
+    margin-right: 170px;
     color: black;
 }
 
