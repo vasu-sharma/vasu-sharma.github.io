@@ -1,0 +1,375 @@
+body {
+    font-family: muli;
+}
+
+.hideous {
+    display: none;
+}
+
+.navbar {
+    background: transparent;
+}
+
+#navbutt {
+    float: left;
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color: black;
+    border-radius: 0px;
+}
+
+#navbutt:focus {
+    outline: 0;
+}
+
+.bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+    margin-left: -4px;
+}
+
+.bar + .bar {
+    margin-top: 4px;
+}
+
+#toppane, #toppane * {
+    z-index: 2;
+}
+
+#head {
+    text-align: center;
+    font-family: adamina;
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    width: 49%;
+    margin: auto;
+    z-index: 100;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-family: "kalam";
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+#nav {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 60px;
+    border: 2px solid black;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-family: "kalam";
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+#navbar {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#navbar ul {
+    display: inline-block;
+    font-family: "kalam";
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 160px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    color: black;
+}
+
+#maindiv {
+    width: 1349px;
+    height: 700px;
+}
+
+#tagline {
+    margin-top: 90px;
+}
+
+#tagline p {
+    margin: 0px;
+    line-height: 120px;
+    color: black;
+    font-family: "pacifico";
+    font-size: 100px;
+    padding-right: 120px;
+}
+
+#about {
+    margin: 45px 90px;
+    margin-bottom: 30px;
+}
+
+#experience {
+    background-color: rgb(21,67,96);
+}
+
+#acadtable {
+    margin: 0px auto;
+}
+
+#acadtable, #acadtable td, #acadtable th {
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+#aqhead {
+    text-align: center;
+    font-size: 40px;
+    font-family: "cinzel";
+    color: white;
+}
+
+#olcourses {
+    margin-left: 213px;
+    color: white;
+    font-family: "cinzel";
+}
+
+#roc {
+    color: white;
+    margin-left: 230px;
+    line-height: 27px;
+}
+
+#exp p, #exp ul, #exp h4 {
+    margin-left: 213px;
+    margin-right: 213px;
+    color: white;
+}
+
+#projects {
+    background-color: black;
+}
+
+#projects p, #projects ul, #projects h4, #projects h2 {
+    margin-left: 150px;
+    margin-right: 120px;
+    color: rgb(150, 150, 150);
+}
+
+#pj {
+    position: relative;
+    height: 730px;
+    width: 1349px;
+    z-index: 1;
+}
+
+#pj p {
+    margin-top: 20px;
+    color: white;
+}
+
+#fs {
+    z-index: 3;
+    top: 45px;
+    left: 449px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#fspic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#fspara {
+    display: none;
+}
+
+#ica {
+    top: 265px;
+    left: 999px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#icapic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#icapara {
+    display: none;
+}
+
+
+#bio {
+    top: 277px;
+    left: 244px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#biopic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#biopara {
+    font-size: 25px;
+    display: none;
+}
+
+#baja {
+    z-index: 3;
+    top: 510px;
+    left: 439px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#bajapic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#bajapara {
+    display: none;
+}
+
+#other {
+    z-index: 2;
+    top: 500px;
+    left: 809px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#otherpic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#otherpara {
+    font-size: 25px;
+    display: none;
+}
+
+#wind {
+    z-index: 2;
+    top: 45px;
+    left: 779px;
+    position: absolute;
+    background-color: rgb(23, 32, 42);
+    height: 178px;
+    width: 178px;
+    border-radius: 89px;
+}
+
+#windpic {
+    z-index: 1;
+    float: left;
+    shape-outside: circle();
+    margin-right: 30px;
+    border: 2px solid rgb(23, 32, 42);
+}
+
+#windpara {
+    display: none;
+}
+
+#achieve {
+    background-color: black;
+}
+
+#achieve ul {
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+#achieve ul li {
+    font-size: 20px;
+}
+
+#social {
+    margin-left: 170px;
+    color: black;
+}
+
+#social i {
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 22px;
+}
