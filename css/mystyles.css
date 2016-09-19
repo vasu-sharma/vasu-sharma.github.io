@@ -111,7 +111,6 @@ body {
 }
 
 #maindiv {
-    width: 1349px;
     height: 700px;
 }
 
@@ -186,7 +185,6 @@ body {
 #pj {
     position: relative;
     height: 730px;
-    width: 1349px;
     z-index: 1;
 }
 
